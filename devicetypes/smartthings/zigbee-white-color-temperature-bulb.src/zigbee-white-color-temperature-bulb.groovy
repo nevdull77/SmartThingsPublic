@@ -34,6 +34,9 @@ metadata {
 		// Generic
 		fingerprint profileId: "0104", deviceId: "010C", inClusters: "0006, 0008, 0300", deviceJoinName: "Generic Color Temperature Light"
 
+		// ABL
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Samsung Electronics", model: "ABL-LIGHT-Z-001", deviceJoinName: "Ultra Thin Wafer", mnmn: "Samsung Electronics", vid: "ABL-LIGHT-Z-001"
+
 		// AduroSmart
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000", outClusters: "0019", deviceId: "010C", manufacturer: "AduroSmart Eria", model: "AD-ColorTemperature3001", deviceJoinName: "Eria ZigBee Color Temperature Bulb"
 
@@ -46,7 +49,7 @@ metadata {
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 1000, FFFF", outClusters: "0019", manufacturer: "Aurora", model: "TWCLBulb50AU", deviceJoinName: "AOne Smart Tuneable Candle Lamp", mnmn: "SmartThings", vid: "generic-color-temperature-bulb-2200K-5000K"
 
 		// Commercial Electric
-		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "ETI", model: "Zigbee CCT Downlight", deviceJoinName: "Commercial Electric Can Tunable White"
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "ETI", model: "Zigbee CCT Downlight", deviceJoinName: "Commercial Electric Can Tunable White", vid: "generic-color-temperature-bulb-2700K-5000K"
 
 		// Ecosmart
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300, 0B05, 1000, FC82", outClusters: "000A, 0019", manufacturer: "The Home Depot", model: "Ecosmart-ZBT-BR30-CCT-Bulb", deviceJoinName: "Ecosmart Bulb"
@@ -92,6 +95,9 @@ metadata {
 		// Third Reality
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Third Reality, Inc", model: "3RSL011Z", deviceJoinName: "RealityLight"
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0300", outClusters: "0019", manufacturer: "Third Reality, Inc", model: "3RSL012Z", deviceJoinName: "RealityLight"
+
+		//Ikea
+		fingerprint manufacturer: "IKEA of Sweden", model: "TRADFRI bulb E27 WS clear 806lm", deviceJoinName: "IKEA TRÅDFRI LED Bulb", mnmn: "SmartThings", vid: "generic-color-temperature-2700K-4000K" // raw desc: 01 0104 010C 01 08 0000 0003 0004 0005 0006 0008 0300 1000 04 0005 0019 0020 1000
 	}
 
 	// UI tile definitions

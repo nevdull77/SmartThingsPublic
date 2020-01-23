@@ -53,6 +53,13 @@ metadata {
 		fingerprint mfr: "027A", prod: "B111", model: "1E1C", deviceJoinName: "Zooz Switch"
 		fingerprint mfr: "027A", prod: "B111", model: "251C", deviceJoinName: "Zooz Switch ZEN23"
 		fingerprint mfr: "0060", prod: "0004", model: "000C", deviceJoinName: "Everspring On/Off Plug", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "C000", model: "C001", deviceJoinName: "EVA LOGIK Smart Plug 1CH", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "FF00", model: "FF07", deviceJoinName: "Minoston Outdoor Smart Plug", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "FF00", model: "FF06", deviceJoinName: "Minoston Smart Plug 1CH", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "FF00", model: "FF01", deviceJoinName: "Minoston on/off Toggle Switch", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "C000", model: "C003", deviceJoinName: "Evalogik Outdoor Smart Plug", ocfDeviceType: "oic.d.smartplug"
+		fingerprint mfr: "0312", prod: "FF00", model: "FF03", deviceJoinName: "Minoston Smart On/Off Switch"
+		fingerprint mfr: "0312", prod: "C000", model: "CO05", deviceJoinName: "Evalogik Mini Outdoor Smart Plug", ocfDeviceType: "oic.d.smartplug"
 	}
 
 	// simulator metadata

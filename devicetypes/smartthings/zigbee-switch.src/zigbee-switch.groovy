@@ -31,10 +31,19 @@ metadata {
 		// eWeLink
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006", outClusters: "0000", manufacturer: "eWeLink", model: "SA-003-Zigbee", deviceJoinName: "eWeLink SmartPlug (SA-003)", ocfDeviceType: "oic.d.smartplug"
 
+		// EZEX
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0006", outClusters: "0006, 000A, 0019", manufacturer: "EZEX", model: "E220-KR1N0Z0-HA", deviceJoinName: "EZEX Switch"
+
 		// GDKES
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0005, 0004, 0006", manufacturer: "REXENSE", model: "HY0001", deviceJoinName: "GDKES Smart Switch"
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0702, 0B04", manufacturer: "REXENSE", model: "RH5006", deviceJoinName: "GDKES Smart Outlet (GDKES-016)", ocfDeviceType: "oic.d.smartplug"
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0702, 0B04", manufacturer: "REXENSE", model: "RH5005", deviceJoinName: "GDKES Smart Outlet (GDKES-015)", ocfDeviceType: "oic.d.smartplug"
+
+		// HEIMAN
+		fingerprint profileId: "0104", inClusters: "0005, 0004, 0006", outClusters: "0003, 0019", manufacturer: "HEIMAN", model: "HS2SW1L-EFR-3.0", deviceJoinName: "HEIMAN Smart Switch"
+		
+		// HONYAR
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006", manufacturer: "REX", model: "HY0095", deviceJoinName: "HONYAR Smart Switch"
 
 		// IKEA
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, FC7C", outClusters: "0005, 0019, 0020", manufacturer:"IKEA of Sweden", model: "TRADFRI control outlet", deviceJoinName: "IKEA TRÅDFRI control outlet", ocfDeviceType: "oic.d.smartplug"
@@ -68,6 +77,10 @@ metadata {
 
 		// SONOFF
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006", outClusters: "0000", manufacturer: "SONOFF", model: "BASICZBR3", deviceJoinName: "SONOFF Basic (R3 Zigbee)", ocfDeviceType: "oic.d.smartplug"
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006", outClusters: "0000", manufacturer: "SONOFF", model: "S31 Lite zb", deviceJoinName: "S31 Lite zb", ocfDeviceType: "oic.d.smartplug"
+		
+		// Terncy
+		fingerprint profileId: "0104", inClusters: "0000, 0003, 0006", outClusters: "0019", manufacturer: "", model: "TERNCY-LS01", deviceJoinName: "Terncy Smart Light Socket"
 
 		// Third Reality
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0019", manufacturer: "Third Reality, Inc", model: "3RSS008Z", deviceJoinName: "RealitySwitch Plus"
